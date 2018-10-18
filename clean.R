@@ -1,5 +1,5 @@
 
-CleanDataframe <- function() 
+CleanDataframe <<- function() 
 {
     dfStates <<- dfStates[-1,]
   dfStates <<- dfStates[-52,]
