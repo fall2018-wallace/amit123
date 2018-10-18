@@ -30,12 +30,18 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "adjadhav",
+            "name": "clean.R",
+            "task_status": "in progress"
         },
         {
             "name": "data.csv"
+        },
+        {
+            "desc": "",
+            "name": "census.R"
         }
     ],
-    "updated_at": "2018-10-18 03:24:15",
+    "updated_at": "2018-10-18 17:14:54",
     "url": "https://github.com/fall2018-wallace/amit123"
 }
