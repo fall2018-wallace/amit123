@@ -9,4 +9,5 @@ dfStates<<- read.csv("scprc_est_2017_18_pop_res.csv")
   colnames(dfStates) <<- c("stateName","population","popOver18","percentOver18")
   return(dfStates)
 }
-dfStates
+clean_data<-dfStates
+clean_data
