@@ -104,8 +104,11 @@
         },
         {
             "name": "map1.png"
+        },
+        {
+            "name": "colored_map.png"
         }
     ],
-    "updated_at": "2018-10-25 17:02:53",
+    "updated_at": "2018-10-25 17:04:01",
     "url": "https://github.com/fall2018-wallace/amit123"
 }
