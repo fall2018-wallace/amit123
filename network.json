@@ -117,8 +117,11 @@
         },
         {
             "name": "colored_map.png"
+        },
+        {
+            "name": "murder.png"
         }
     ],
-    "updated_at": "2018-10-25 17:04:15",
+    "updated_at": "2018-10-25 17:05:03",
     "url": "https://github.com/fall2018-wallace/amit123"
 }
