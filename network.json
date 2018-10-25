@@ -1,0 +1,163 @@
+{
+    "collaborators": [
+        "adjadhav"
+    ],
+    "created_at": "2018-10-18 03:22:27",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "arrests",
+                    "output": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "census.R",
+            "target": "Merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "output": "clean_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data",
+                    "output": "merged_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge.R",
+            "target": "addColumns.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data_new",
+                    "output": "merged_data_new",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "addColumns.R",
+            "target": "map.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map1",
+                    "type": "png"
+                }
+            ],
+            "source": "map.R",
+            "target": "map1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "colored_map",
+                    "type": "png"
+                }
+            ],
+            "source": "map.R",
+            "target": "colored_map.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder",
+                    "type": "png"
+                }
+            ],
+            "source": "map.R",
+            "target": "murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "lat_long",
+                    "type": "png"
+                }
+            ],
+            "source": "map.R",
+            "target": "lat_long.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map2",
+                    "type": "png"
+                }
+            ],
+            "source": "map.R",
+            "target": "map2.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "adjadhav",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "adjadhav",
+            "desc": "",
+            "name": "census.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "adjadhav",
+            "desc": "",
+            "name": "Merge.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "adjadhav",
+            "desc": "",
+            "name": "addColumns.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "adjadhav",
+            "desc": "",
+            "name": "map.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "map1.png"
+        },
+        {
+            "name": "colored_map.png"
+        },
+        {
+            "name": "murder.png"
+        },
+        {
+            "name": "lat_long.png"
+        },
+        {
+            "name": "map2.png"
+        }
+    ],
+    "updated_at": "2018-10-25 17:07:05",
+    "url": "https://github.com/fall2018-wallace/amit123"
+}
