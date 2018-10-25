@@ -17,7 +17,7 @@
         {
             "ports": [
                 {
-                    "input": "areests",
+                    "input": "arrests",
                     "output": "arrests",
                     "type": "r_obj"
                 }
@@ -46,6 +46,6 @@
             "name": "Merge.R"
         }
     ],
-    "updated_at": "2018-10-25 16:09:07",
+    "updated_at": "2018-10-25 16:09:18",
     "url": "https://github.com/fall2018-wallace/amit123"
 }
