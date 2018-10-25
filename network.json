@@ -87,6 +87,16 @@
             ],
             "source": "map.R",
             "target": "murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "lat_long",
+                    "type": "png"
+                }
+            ],
+            "source": "map.R",
+            "target": "lat_long.png"
         }
     ],
     "nodes": [
@@ -135,6 +145,6 @@
             "name": "lat_long.png"
         }
     ],
-    "updated_at": "2018-10-25 17:05:44",
+    "updated_at": "2018-10-25 17:05:59",
     "url": "https://github.com/fall2018-wallace/amit123"
 }
