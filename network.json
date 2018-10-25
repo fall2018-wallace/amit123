@@ -143,8 +143,11 @@
         },
         {
             "name": "lat_long.png"
+        },
+        {
+            "name": "map2.png"
         }
     ],
-    "updated_at": "2018-10-25 17:05:59",
+    "updated_at": "2018-10-25 17:06:46",
     "url": "https://github.com/fall2018-wallace/amit123"
 }
