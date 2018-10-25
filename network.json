@@ -97,6 +97,16 @@
             ],
             "source": "map.R",
             "target": "lat_long.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map2",
+                    "type": "png"
+                }
+            ],
+            "source": "map.R",
+            "target": "map2.png"
         }
     ],
     "nodes": [
@@ -148,6 +158,6 @@
             "name": "map2.png"
         }
     ],
-    "updated_at": "2018-10-25 17:06:46",
+    "updated_at": "2018-10-25 17:07:05",
     "url": "https://github.com/fall2018-wallace/amit123"
 }
