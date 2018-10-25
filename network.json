@@ -91,8 +91,11 @@
             "desc": "",
             "name": "map.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "map1.png"
         }
     ],
-    "updated_at": "2018-10-25 17:00:56",
+    "updated_at": "2018-10-25 17:02:25",
     "url": "https://github.com/fall2018-wallace/amit123"
 }
