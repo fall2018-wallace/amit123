@@ -67,6 +67,16 @@
             ],
             "source": "map.R",
             "target": "map1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "colored_map",
+                    "type": "png"
+                }
+            ],
+            "source": "map.R",
+            "target": "colored_map.png"
         }
     ],
     "nodes": [
@@ -109,6 +119,6 @@
             "name": "colored_map.png"
         }
     ],
-    "updated_at": "2018-10-25 17:04:01",
+    "updated_at": "2018-10-25 17:04:15",
     "url": "https://github.com/fall2018-wallace/amit123"
 }
