@@ -24,6 +24,17 @@
             ],
             "source": "census.R",
             "target": "Merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "output": "clean_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Merge.R"
         }
     ],
     "nodes": [
@@ -46,6 +57,6 @@
             "name": "Merge.R"
         }
     ],
-    "updated_at": "2018-10-25 16:09:18",
+    "updated_at": "2018-10-25 16:09:34",
     "url": "https://github.com/fall2018-wallace/amit123"
 }
