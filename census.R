@@ -1,3 +1,3 @@
 
-arrests <- data.fram(USArrests)
+arrests <- data.frame(USArrests)
 arrests
