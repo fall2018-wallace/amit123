@@ -46,6 +46,17 @@
             ],
             "source": "Merge.R",
             "target": "addColumns.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merged_data_new",
+                    "output": "merged_data_new",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "addColumns.R",
+            "target": "map.R"
         }
     ],
     "nodes": [
@@ -76,10 +87,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "adjadhav",
             "desc": "",
-            "name": "map.R"
+            "name": "map.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:59:03",
+    "updated_at": "2018-10-25 17:00:56",
     "url": "https://github.com/fall2018-wallace/amit123"
 }
