@@ -57,6 +57,16 @@
             ],
             "source": "addColumns.R",
             "target": "map.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map1",
+                    "type": "png"
+                }
+            ],
+            "source": "map.R",
+            "target": "map1.png"
         }
     ],
     "nodes": [
@@ -96,6 +106,6 @@
             "name": "map1.png"
         }
     ],
-    "updated_at": "2018-10-25 17:02:25",
+    "updated_at": "2018-10-25 17:02:53",
     "url": "https://github.com/fall2018-wallace/amit123"
 }
