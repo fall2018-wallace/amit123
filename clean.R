@@ -8,3 +8,4 @@ clean_data <<- function()
   colnames(dfStates) <<- c("stateName","population","popOver18","percentOver18")
   return(dfStates)
 }
+dfStates
